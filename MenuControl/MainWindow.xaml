@@ -1,0 +1,26 @@
+﻿<Window x:Class="MenuControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu Height="40" VerticalAlignment="Top" >
+            <MenuItem Header="_Menu1" Height="40" Background="#fff" Margin="0 0 10 0" IsCheckable="True"  />
+            <MenuItem Header="_Menu2" Height="40" Background="#fff" Margin="0 0 10 0">
+                <MenuItem Height="40" Width="190" Header="Hello ooh"/>
+                <MenuItem Height="40" Width="190" Header="Hello ooh"/>
+                <Separator  HorizontalAlignment="Center"/>
+                <MenuItem Height="40" Width="190" Header="Hello ooh">
+                    <MenuItem Header="Holaaa ooh" Height="40" />
+                    <MenuItem Header="H_olaaa ooh" Height="40"/>
+                    <MenuItem Header="Holaaa ooh" Height="40"/>
+                </MenuItem>
+                <MenuItem Height="40" Width="190" Header="Hello ooh"/>
+            </MenuItem>
+        </Menu>
+        
+    </Grid>
+</Window>
